@@ -61,7 +61,7 @@ export default function Home() {
       <div className="w-full max-w-md grid grid-cols-2 gap-4 mt-6">
         {[
           { heading: '995 BARS', image: 'https://kadirigold.com/images/product-img1.png' },
-          { heading: '995 BARS', image: 'https://kadirigold.com/images/product-img2.png' },
+          { heading: '999 BARS', image: 'https://kadirigold.com/images/product-img2.png' },
           { heading: '9999 BARS', image: 'https://kadirigold.com/images/product-img3.png' },
           { heading: 'Gold Ornaments', image: 'https://kadirigold.com/images/product-img4.png' },
           { heading: 'GOLD COINS', image: 'https://kadirigold.com/images/product-img5.png' },
