@@ -10,7 +10,7 @@ export default function Home() {
       
       {/* Header Image */}
       <div
-        className="w-full h-80 bg-cover bg-center relative rounded-xl overflow-hidden"
+        className="w-full h-100 bg-cover bg-center relative rounded-xl overflow-hidden"
         style={{ backgroundImage: `url('/samsi.jpeg')` }}
       >
         <div className="absolute bottom-0 w-full h-28 bg-gradient-to-t from-[#1E1B2E] to-transparent"></div>
@@ -64,12 +64,14 @@ export default function Home() {
           { heading: '995 BARS', image: 'https://kadirigold.com/images/product-img2.png' },
           { heading: '9999 BARS', image: 'https://kadirigold.com/images/product-img3.png' },
           { heading: 'Gold Ornaments', image: 'https://kadirigold.com/images/product-img4.png' },
-          { heading: 'GOLD COINS', image: 'https://kadirigold.com/images/product-img5.png' }
+          { heading: 'GOLD COINS', image: 'https://kadirigold.com/images/product-img5.png' },
+          { heading: 'Customized Gold', image: '/ringhd.png' }, // Replace with real image
+          { heading: 'Old Gold Exchange', image: '/oldgold.png' } // Replace with real image
         ].map((item, index, array) => (
           <div
             key={index}
             className={`bg-[#2C2540] p-4 rounded-xl shadow-md text-center ${
-              index === array.length - 1 ? 'col-span-2 mx-auto w-full' : ''
+              index === array.length - 1 && array.length % 2 !== 0 ? 'col-span-2 mx-auto w-full' : ''
             }`}
           >
             <img
