@@ -10,7 +10,7 @@ export default function Home() {
       
       {/* Header Image */}
       <div
-        className="w-full h-100 bg-cover bg-center relative rounded-xl overflow-hidden"
+        className="w-full h-115 bg-cover bg-center relative rounded-xl overflow-hidden"
         style={{ backgroundImage: `url('/samsi.jpeg')` }}
       >
         <div className="absolute bottom-0 w-full h-28 bg-gradient-to-t from-[#1E1B2E] to-transparent"></div>
